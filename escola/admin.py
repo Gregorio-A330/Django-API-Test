@@ -1,5 +1,5 @@
 from django.contrib import admin
-from escola.models import Aluno, Curso
+from escola.models import Aluno, Curso, Matricula
 # Register your models here.
 
 # configurações para exibição
@@ -18,6 +18,13 @@ class Cursos(admin.ModelAdmin):
         search_fields = ('codigo_curso',) # consegue realizar a busca por nome
 
 admin.site.register(Curso, Cursos)
+
+class Matriculas(admin.ModelAdmin):
+        list_display = ('id', 'aluno', 'curso', 'periodo') # listagem dos campos no admin - estilo swagger
+        list_display_links = ('id',) # campos que podem ser editados
+
+
+admin.site.register(Matricula, Matriculas)
 
 # python manage.py runserver
 # localhost:8000/admin

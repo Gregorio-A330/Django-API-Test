@@ -1,4 +1,4 @@
-Módulo 1:
+Módulo 01:
 ***Instalando Django Rest API***
 
 Entendemos o que é uma API;
@@ -7,10 +7,10 @@ Realizamos uma requisição GET retornando um Json;
 
 Instalamos o Django Rest Framework.
 
---------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
-Módulo 2:
-*** Modelos, Admin e Serializers
+Módulo 02:
+*** Modelos, Admin e Serializers ***
 
 Criamos o modelo de aluno e de curso;
 
@@ -79,7 +79,23 @@ Superuser created successfully.
 Pega as informações e converte de JSON para PYTHON e vice versa
 Ou seja, é uma ponte entre a web e o Python, convertendo os formatos 
 
+----------------------------------------------------------------------------------------------------------------------------
 
 Módulo 03:
 *** Viewset, Urls e requisições GET e POST ***
+
+Criamos as classes AlunosViewSet e CursosViewSet para usufruir das principais ;
+
+Realizamos uma requisição GET retornando um Json;
+
+Instalamos o Django Rest Framework.
+
+
+-> Um modelo é a fonte única e definitiva de informações sobre seus dados e não um Viewset.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Módulo 04:
+*** Atualizando e deletando recursos ***
+
 
