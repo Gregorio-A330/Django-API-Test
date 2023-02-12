@@ -98,4 +98,15 @@ Instalamos o Django Rest Framework.
 Módulo 04:
 *** Atualizando e deletando recursos ***
 
+Vimos que existem dois verbos do HTTP para atualizar um recurso, o PUT e o PATCH;
 
+Deletamos um recurso executando uma solicitação DELETE;
+
+Criamos o modelo de matrícula, vinculando um aluno em um curso;
+
+Disponibilizamos os recursos de matrícula para nossa API.
+
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Módulo 05:

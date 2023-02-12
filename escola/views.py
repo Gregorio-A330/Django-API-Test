@@ -16,7 +16,7 @@ class CursosViewSet(viewsets.ModelViewSet):
     queryset = Curso.objects.all() # responsável por trazer os dados do banco de dados (podendo incluir um filtro )
     serializer_class = CursoSerializer #classe responsável por serializar
 class MatriculasViewSet(viewsets.ModelViewSet):
-    """Exibindo todos os Cursos""" #docstring
+    """Listando todas as matrículas""" #docstring
 
     queryset = Matricula.objects.all() # responsável por trazer os dados do banco de dados (podendo incluir um filtro )
     serializer_class = MatriculaSerializer #classe responsável por serializar
