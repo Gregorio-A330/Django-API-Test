@@ -1,0 +1,13 @@
+Módulo 1:
+***Instalando Django Rest API***
+
+Entendemos o que é uma API;
+
+Realizamos uma requisição GET retornando um Json;
+
+Instalamos o Django Rest Framework.
+
+--------------------------------------------------------------
+
+Módulo 2:
+
