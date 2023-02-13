@@ -1,7 +1,7 @@
 
 from django.contrib import admin
 from django.urls import path, include
-from escola.views import AlunosViewSet, CursosViewSet, MatriculasViewSet
+from escola.views import AlunosViewSet, CursosViewSet, MatriculasViewSet, ListaMatriculasAluno, ListaAlunosMatriculados
 from rest_framework import routers
 
 # rota padrão
@@ -13,4 +13,9 @@ router.register('matriculas', MatriculasViewSet, basename='matriculas')
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
+    path('aluno/<int:pk>/matriculas/', ListaMatriculasAluno.as_view()),
+    path('curso/<int:pk>/matriculas/', ListaAlunosMatriculados.as_view())
 ]
+
+
+# http://localhost:8000/aluno/2/matriculas/

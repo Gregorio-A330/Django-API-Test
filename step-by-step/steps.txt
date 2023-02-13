@@ -110,3 +110,4 @@ Disponibilizamos os recursos de matrícula para nossa API.
 ----------------------------------------------------------------------------------------------------------------------------
 
 Módulo 05:
+*** ListAPIView e Autenticação ***
